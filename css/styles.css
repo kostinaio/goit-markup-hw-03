@@ -83,10 +83,6 @@ img {
     padding: 120px 0;
 }
 
-.section-item {
-    gap: 24px;
-}
-
 .section-title{
     font-weight: 700;
     font-size: 36px; 
@@ -271,6 +267,7 @@ img {
 .features-section .section-list {
     display: flex;
     --items: 4;
+    gap: 24px;
 }
 
 .features-text {
@@ -285,8 +282,12 @@ img {
     background-color: var(--ligth-cl);
 }
 
-.team-item{
+.team-section .section-list{
     --items: 4;
+    gap: 24px;
+}
+
+.team-item{
     background-color: var(--secondary-cl);
     border-radius: 0px 0px 4px 4px;
 }
