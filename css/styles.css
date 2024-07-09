@@ -12,13 +12,13 @@
     --ligth-cl: #f4f4fd;
     --pressed-cl: #404bbf;
     --accent-cl: #e7e9fc;
-    /*
+
     /* Others */
     --items: 3;
     --col-indent: 24px;
     --row-indent: 48px;
-    */
 }
+
 /* #endregion */
 
 /* #region Base styles*/
@@ -94,10 +94,6 @@ img {
     margin-bottom: 72px;
 }
 
-.section-list {
-    gap: 24;
-}
-
 .section-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -111,9 +107,6 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-size: 16px;
-}
-
-.section-illustration {
 }
 
 .visually-hidden {
@@ -309,8 +302,8 @@ img {
 
 .portfolio-item-decor {
     border-bottom: 1px solid var(--accent-cl);
-    border-left: 1px solid var(--accent-cl);
     border-right: 1px solid var(--accent-cl);
+    border-left: 1px solid var(--accent-cl);
     padding: 32px 16px;
 }
 /* #endregion */
@@ -335,4 +328,3 @@ img {
     word-wrap: break-word; 
 }
 /* #endregion */
-
