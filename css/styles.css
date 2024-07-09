@@ -94,7 +94,8 @@ img {
     margin-bottom: 72px;
 }
 
-.section-item {
+.section-list {
+    gap: 24;
 }
 
 .section-subtitle {
@@ -334,3 +335,4 @@ img {
     word-wrap: break-word; 
 }
 /* #endregion */
+
