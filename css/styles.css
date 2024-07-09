@@ -16,7 +16,7 @@
     /* Others */
     --items: 3;
     --col-indent: 24px;
-    --row-indent: 42px;
+    --row-indent: 48px;
     */
 }
 /* #endregion */
@@ -93,10 +93,8 @@ img {
     color: var(--dark-cl);
     margin-bottom: 72px;
 }
-.section-list {}
 
 .section-item {
-    gap: 24px;
 }
 
 .section-subtitle {
@@ -307,9 +305,6 @@ img {
 /* #endregion */
 
 /* #region OurPortfolio */
-.portfolio-section .section-item {
-    row-gap: 48px;
-}
 
 .portfolio-item-decor {
     border-bottom: 1px solid var(--accent-cl);
